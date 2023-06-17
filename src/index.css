@@ -11,3 +11,183 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Background{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.TaskBar{
+  height: 5vh;
+  width: 100vw;
+  z-index: 1000;
+  background-color: rgb(34,90,209);
+  border-top: 3px solid rgb(52,106,223);
+}
+.StartButton{
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+
+}
+.StartUserProfile{
+  width: 100%;
+  height: 20%;
+  background-color: rgb(34,90,209);
+  border-radius: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.StartMenu{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 70vh;
+  background-color: rgb(34,90,209);
+  border: 2px solid rgb(52,106,223);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  z-index: 1;
+}
+.StartMenuHidden{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 70vh;
+  background-color: rgb(34,90,209);
+  border: 2px solid rgb(52,106,223);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  z-index: 1;
+  visibility: hidden;
+}
+.programsFromStartMenu{
+  background-color: white;
+  width: 100%;
+  height: 80%;
+}
+.fixImage{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.fixUserName{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.iFrame{
+  width: 520px;
+  height: 520px;
+  position: absolute;
+  border: 2px solid rgb(52,106,223);
+  z-index: 2;
+}
+.iconHolder{
+  height: 95vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.icon{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.iconImage{
+  width: 60%;
+  height: 60%;
+}
+.iconName{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: x-small;
+  white-space: nowrap ;
+}
+.canvas{
+  width: 400px;
+  height: 400px;
+  z-index: 4;
+}
+.displayScreen{
+  background-color: white;
+  z-index: 5;
+  width: 520px;
+  height: 550px;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  border: 2px solid rgb(52,106,223);
+  z-index: 2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.topBar{
+  height: 30px;
+  width: 520px;
+  background-color: blue;
+}
+.handle{
+  height: 22px;
+  width: 520px;
+  background-color: rgb(34,90,209);
+  border: 2px solid rgb(52,106,223);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: row-reverse;
+  }
+.closeButton{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  border: 1.5px solid white;
+  border-radius: 3px;
+}
+.x1{
+  background-color: white;
+  border: 1.5px solid white;
+  width: 12px;
+  height: 1px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  position: relative;
+  left: 2.5px;
+  top: 8px
+}
+.x2{
+  background-color: white;
+  border: 1.5px solid white;
+  width: 12px;
+  height: 1px;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 2.5px;
+  top: 4.5px
+}
