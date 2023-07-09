@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/css/main.7c124580.css",
+    "main.js": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/js/main.c0876702.js",
+    "static/js/787.7b63f85e.chunk.js": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/js/787.7b63f85e.chunk.js",
+    "static/media/windowsXPBackground.jpg": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/media/windowsXPBackground.e0396a0d786d2c387416.jpg",
+    "static/media/profilepic.PNG": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/media/profilepic.4f11b6c1622caa4c113d.PNG",
+    "static/media/snakegame.PNG": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/media/snakegame.394b53e1d2d4623c5373.PNG",
+    "index.html": "/kocaklejdi.github.io/Kocaklejdi.github.io/index.html",
+    "main.7c124580.css.map": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/css/main.7c124580.css.map",
+    "main.c0876702.js.map": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/js/main.c0876702.js.map",
+    "787.7b63f85e.chunk.js.map": "/kocaklejdi.github.io/Kocaklejdi.github.io/static/js/787.7b63f85e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c124580.css",
+    "static/js/main.c0876702.js"
+  ]
+}
