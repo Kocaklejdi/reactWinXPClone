@@ -28,11 +28,33 @@ code {
   top: 0;
 }
 .TaskBar{
+  flex: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.TaskBarTab{
+  height: 90%;
+  width: 160px;
+  background-color: rgb(82,140,255);
+  z-index: 5000;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(100,160,255);
+  align-items: center;
+  gap: 8px;
+  color: white;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+.TaskBarHolder{
   height: 5vh;
   width: 100vw;
   z-index: 1000;
   background-color: rgb(34,90,209);
   border-top: 3px solid rgb(52,106,223);
+  display: flex;
+  flex-direction: row;
 }
 .StartButton{
   height: 100%;
@@ -169,6 +191,10 @@ code {
   border: 1.5px solid white;
   border-radius: 3px;
 }
+.resume{
+  width: 99%;
+  height: 94%;
+}
 .x1{
   background-color: white;
   border: 1.5px solid white;
@@ -190,4 +216,18 @@ code {
   position: relative;
   left: 2.5px;
   top: 4.5px
+}
+.time{
+  font-size: medium;
+  color: white;
+  text-shadow: 2px 2px black;
+  align-self: center;
+}
+.contentHolder{
+  display: flex;
+  flex-direction: column;
+}
+.taskBarImage{
+  width: 20px;
+  height: 20px;
 }

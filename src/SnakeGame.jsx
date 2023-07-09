@@ -2,7 +2,7 @@ import React from 'react'
 
 function SnakeGame() {
   return (
-    <><iframe className='iFrame' srcdoc='<body style="overflow: hidden;">
+    <><iframe className='iFrame' srcDoc='<body style="overflow: hidden;">
     <canvas id = "myCanvas" height = 500px width = 500px style="background-color: white"></canvas>    
     <script>const canvas = document.getElementById("myCanvas");
     canvas.style = `
