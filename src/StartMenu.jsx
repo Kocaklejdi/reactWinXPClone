@@ -1,14 +1,16 @@
 import React from 'react'
 import "./index.css"
 
-function StartMenu({isShown}) {
+function StartMenu({isShown,children}) {
   return (
       <div className={isShown?"StartMenu":"StartMenuHidden"} >
         <div className='StartUserProfile'>
           <img className='fixImage' src={require("./assets/profilepic.PNG")}></img>
           <span className='fixUserName'>Klejdi Koca</span>
         </div>
-        <div className='programsFromStartMenu'></div>
+        <div className='programsFromStartMenu'>
+          {children}
+        </div>
       </div>
   )
 }

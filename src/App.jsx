@@ -78,7 +78,11 @@ function App() {
                 )
               })}
           </TaskBar>
-        <StartMenu isShown={showMenu} />
+        <StartMenu isShown={showMenu}>
+              <div>
+                hello
+              </div>
+        </StartMenu>>
         <IconHolder>
           {icons.map((icon)=>{return(<Icon onclick={()=>{
             const obj = {
